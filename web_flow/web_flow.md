@@ -28,7 +28,7 @@ Generate this into HTML format by running:
 
 I pose this question to you: (read question).
 
-It feel pretty easy, doesn't it? What goes in to browsing the World Wide Web?
+It feels pretty easy, doesn't it? Let's explore what goes in to browsing the World Wide Web.
 
 * next slide
 
@@ -119,7 +119,7 @@ You can visit their sites and read more about them.
 
 !NOTES
 
-So now that we've talked a bit about protocols and standards, let's get back on track of how we'll navigate the Internet.
+So now that we've talked a bit about protocols and standards, let's get back on track of how we navigate the Internet.
 
 * next slide
 
@@ -139,15 +139,17 @@ Translate the name provided ([Domain Name]) to an Internet Protocol ([IP]) addre
 
 !NOTES
 
-First, your computer needs to translate the domain name you typed into an Internet address.
+First, your computer needs to translate the domain name you typed into an Internet address, also known as an IP address.
 
-It does this by asking another server to look up the address for you, like you would look up a person in the phone book.
+It does this by asking another server to look up the address for you, like you would look up a person in the phone book. That server is commonly called a DNS, or Domain Name Services, server.
 
-Your computer has an address, which can be seen in a Terminal window, by using the `ifconfig` command on Mac OSX, or `ipconfig` on Windows.
+Your computer has an IP address, which can be seen in a Terminal window, by using the `ifconfig` command on Mac OSX, or `ipconfig` on Windows.
 
 (demonstrate in a terminal window)
 
-We can actually do a lookup ourselves in the Terminal/Command interface using the `host` command.
+We can actually do a DNS lookup ourselves in the Terminal/Command interface using the `host` command.
+
+The term `host` is commonly used to describe any computer connected to the Internet, so your desktop or laptop is a host, and the computer that serves the video you are watching is also a host.
 
 * demonstrate in a terminal window, then advance to next slide
 
@@ -168,7 +170,7 @@ We can actually do a lookup ourselves in the Terminal/Command interface using th
 
 !NOTES
 
-So what we just did was ask our computer to ask the Domain Name Services for the IP address for the name opsschool.org
+So what we just did was ask our computer to ask the Domain Name Services server for the IP address for the name `opsschool.org`
 
 Line #1 is the command we typed into the command line and pressed enter.
 We are asking the computer to do a `host` lookup for us from the DNS server.
